@@ -1,15 +1,54 @@
-# DSA_PROBLEMS
-#Check if a number is Palindrome or Not
-#Problem Statement:# Given an integer N, return true if it is a palindrome else return false.
+# 🚀 DSA Practice Repository
+
+This repository contains my solutions to **Data Structures and Algorithms** problems.
+
+## 📚 Topics Covered
+
+- Arrays
+- Strings
+- Recursion
+- Dynamic Programming
+- Linked List
+- Trees
+- Graphs
+
+## 💻 Language
+
+- Java
+
+## 📂 Folder Structure
+
+```
+DSA-Problems
+│
+├── Arrays
+├── Recursion
+├── DynamicProgramming
+├── Trees
+└── Graphs
+```
+
+## 🧠 Goal
+
+- Improve problem solving skills
+- Prepare for coding interviews
+- Practice DSA regularly
+
+# Check if a number is Palindrome or Not
+**Problem Statement:** Given an integer N, return true if it is a palindrome else return false.
 A palindrome is a number that reads the same backward as forward. For example, 121, 1331, and 4554 are palindromes because they remain the same when their digits are reversed.
 
-Example 1:
+# Example 1:
 Input:N = 4554
 Output:Palindrome Number
 Explanation: The reverse of 4554 is 4554 and therefore it is palindrome number
 
-code:
- public boolean palindrome(int n) {
+# Approach
+We then compare the reversed number with the original number. If they are equal, the original number is a palindrome. If they are not equal the original number is not a palindrome.
+
+##code:
+```java
+public boolean palindrome(int n) {
         int revNum = 0; // Initialize a variable to store the reverse of the number
         int dup = n; // Create a duplicate variable to store the original number
 
@@ -23,5 +62,7 @@ code:
         // Check if the original number is equal to its reverse
         return dup == revNum; // Return true if they are equal, otherwise false
     }
+```
+**Time Complexity:** `O(log10N + 1)` Worst Case
 
     
