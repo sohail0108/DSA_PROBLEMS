@@ -33,7 +33,7 @@ The element at the second index (index 1) is the second smallest element.
 The element at the second index from the end (index length-2) is the second largest element.
 ```
 
----
+
 
 ## Code
 
@@ -84,7 +84,7 @@ After that, traverse the array again to find the element just greater than the s
 Similarly, find the element just smaller than the largest element (this will be the second largest).
 ```
 
----
+
 
 ## Code
 
@@ -123,7 +123,7 @@ Similarly, find the element just smaller than the largest element (this will be 
     }
 ```
 
----
+
 
 ## Time Complexity
 ```
@@ -141,24 +141,20 @@ O(1), as we are using a constant amount of space for variables.
 ```
 We will need four variables: small, second_small, large, and second_large. Initialize small and second_small to INT_MAX, and large and second_large to INT_MIN.
 
-**Second Smallest Algorithm:**
+Second Smallest Algorithm:
 
 If the current element is smaller than 'small', update the values of second_small and small.
-
 Else if the current element is smaller than 'second_small', update the value of second_small.
-
 After traversing the array, the second smallest element will be stored in the variable second_small.
 
-**Second Largest Algorithm:**
+Second Largest Algorithm:
 
 If the current element is larger than 'large', update the values of second_large and large.
-
 Else if the current element is larger than 'second_large', update the value of second_large.
-
 After traversing the array, the second largest element will be stored in the variable second_large.
 ```
 
----
+
 
 ## Code
 
@@ -210,7 +206,7 @@ After traversing the array, the second largest element will be stored in the var
 
 ```
 
----
+
 
 ## Time Complexity
 ```
