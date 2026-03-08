@@ -1,5 +1,5 @@
 # Find the smallest element in an array
-**Problem Statement:**Given an array, we have to find the smallest element in the array.
+**Problem Statement:** Given an array, we have to find the smallest element in the array.
 **Example 1:**
 **Input:**
  arr[] = {2, 5, 1, 3, 0}  
@@ -23,10 +23,10 @@ Print the element at the 0th index, which corresponds to the smallest element in
         return arr[0];
     }
 ```
-#Time Complexity: `O(N log N)` where N is the size of the array, as we are sorting the array.
-#Space Complexity:  `O(1)` as we are using a constant
+**Time Complexity:** `O(N log N)` where N is the size of the array, as we are sorting the array.
+**Space Complexity:**  `O(1)` as we are using a constant
 
-#Optimal Approach
+# Optimal Approach
 ```
 Create a variable called min and initialize it with the value of the first element in the array.
 Use a for loop to iterate through the remaining elements in the array.
